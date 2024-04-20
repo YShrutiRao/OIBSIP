@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Authentication System</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9533f2a519.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="form-box">
+            <h1 id="title">Sign Up</h1>
+            <form action="post">
+                <div class="input-group">
+                    <div class="input-field" id="nameField">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" placeholder="Enter your Name">
+                    </div>
+
+                    <div class="input-field">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" placeholder="Enter your E-mail">
+                    </div>
+
+                    <div class="input-field">
+                        <i class="fa-solid fa-key"></i>
+                        <input type="password" placeholder="Enter the Password">
+                    </div>
+
+                    <p>Forgot Password <a href="#">Click here!</a></p>
+                </div>
+
+                <div class="btn-field">
+                    <button type="button" id="signupBtn">Sign Up</button>
+                    <button type="button" id="signinBtn" class="disable">Sign In</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
